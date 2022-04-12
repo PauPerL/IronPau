@@ -1,1 +1,2 @@
 This is another test to do a pull.
+Now its a text file.
