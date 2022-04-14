@@ -12,3 +12,6 @@ https://www.gitkraken.com/
 
 Como hacer Exploratory data analysis(EDA) muestra muy bien como ir paso por paso.
 https://www.analyticsvidhya.com/blog/2021/08/how-to-perform-exploratory-data-analysis-a-guide-for-beginners/
+
+10 cosas que hacer en EDA
+https://medium.com/data-folks-indonesia/10-things-to-do-when-conducting-your-exploratory-data-analysis-eda-7e3b2dfbf812
