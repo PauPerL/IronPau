@@ -6,3 +6,6 @@ https://www.kaggle.com/learn/pandas
 
 Cheatsheet
 https://strftime.org/
+
+Github advanced manager? kraken
+https://www.gitkraken.com/
