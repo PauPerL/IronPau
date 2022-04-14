@@ -15,3 +15,6 @@ https://www.analyticsvidhya.com/blog/2021/08/how-to-perform-exploratory-data-ana
 
 10 cosas que hacer en EDA
 https://medium.com/data-folks-indonesia/10-things-to-do-when-conducting-your-exploratory-data-analysis-eda-7e3b2dfbf812
+
+Mejores heatmaps y matrizes de correlacion
+https://towardsdatascience.com/better-heatmaps-and-correlation-matrix-plots-in-python-41445d0f2bec
