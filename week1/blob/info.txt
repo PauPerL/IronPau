@@ -9,3 +9,6 @@ https://strftime.org/
 
 Github advanced manager? kraken
 https://www.gitkraken.com/
+
+Como hacer Exploratory data analysis(EDA) muestra muy bien como ir paso por paso.
+https://www.analyticsvidhya.com/blog/2021/08/how-to-perform-exploratory-data-analysis-a-guide-for-beginners/
