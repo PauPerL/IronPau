@@ -86,7 +86,7 @@ FROM
     rental;
     
 SELECT 
-    *
+    count(distinct rental_id)
 FROM
     rental
 WHERE
