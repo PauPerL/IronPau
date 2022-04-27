@@ -76,6 +76,18 @@ SELECT
 FROM
     rental;
 
+#optimized code by Sean
+SELECT 
+    *,
+    DATE_FORMAT(CONVERT( rental_date , DATE), '%M') AS 'month',
+    DATE_FORMAT(CONVERT( rental_date , DATE), '%W') AS weekday,
+	CASE 
+        WHEN DATE_FORMAT(CONVERT( rental_date , DATE), '%W') IN ('Saturday', 'Sunday')  THEN 'weekend'
+        ELSE 'workday'
+    END AS day_type
+FROM
+    rental;
+
 #9 How many rentals were in the last month of activity?
 
     
@@ -91,3 +103,15 @@ FROM
     rental
 WHERE
     rental_date > '2006-01-15 15:16:03';
+    
+#with subquerys
+SELECT 
+    COUNT(*)
+FROM
+    rental
+WHERE
+    rental_date >= (SELECT 
+            DATE_SUB(MAX(rental_date),
+                    INTERVAL 30 DAY)
+        FROM
+            rental);
